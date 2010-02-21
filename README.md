@@ -42,7 +42,8 @@ Running Tests
 
 **All Suites (Verbose) **
     $ node myproject/test/runner.js --verbose
-    "Failure: expected <true> found <false> (#undefined undefined in aFailingTest)
+    
+    Failure in core suite; method: aFailingTest
     Failure: expected <true> found <false>
         at Object.assertEquals (/usr/local/lib/node/libraries/mjsunit.js:93:5)
         at /usr/local/lib/node/libraries/mjsunit.js:113:11
@@ -62,7 +63,8 @@ Running Tests
 **Run a test in isolation**
 
     $ node myproject/test/runner.js --verbose --suite core --test aFailingTest
-    "Failure: expected <true> found <false> (#undefined undefined in aFailingTest)
+    
+    Failure in core suite; method: aFailingTest
     Failure: expected <true> found <false>
         at Object.assertEquals (/usr/local/lib/node/libraries/mjsunit.js:93:5)
         at /usr/local/lib/node/libraries/mjsunit.js:113:11
