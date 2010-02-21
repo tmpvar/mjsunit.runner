@@ -36,9 +36,9 @@ Running Tests
 
     $ node myproject/test/runner.js
 
-    core      1/2		                 50% passing
+    core      1/2                    50% passing
     --------------------------------------------
-    TOTALS:		1/2		                 50% passing
+    TOTALS:   1/2                    50% passing
 
 **All Suites (Verbose) **
     $ node myproject/test/runner.js --verbose
@@ -56,9 +56,9 @@ Running Tests
         at [object Object].emitSuccess (node.js:241:15)
         at [object Object].<anonymous> (node.js:678:21)
 
-    core      1/2		                 50% passing
+    core      1/2                    50% passing
     --------------------------------------------
-    TOTALS:		1/2		                 50% passing
+    TOTALS:   1/2                    50% passing
 
 **Run a test in isolation**
 
