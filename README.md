@@ -20,6 +20,8 @@ Usage Example
 
 **myproject/test/runner.js**
 
+*Note:* if you want to use a custom variation of mjsunit, load it into the GLOBAL
+scope before requiring mjsunit.runner/lib/runner.
 
     var suites = {
       "core"   : { 
