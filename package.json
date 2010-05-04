@@ -31,9 +31,7 @@
            "url": "git://github.com/tmpvar/mjsunit.runner.git" 
        } 
    ],
-   "dependencies": {
-       "mjsunit": "*",
-   },
+   "dependencies": {},
    "os": ["linux", "macos"],
    "cpu": ["x86", "ppc", "x86_64"],
    "engines": ["node"],
