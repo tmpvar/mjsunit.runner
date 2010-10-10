@@ -22,6 +22,6 @@
 , "dependencies" : {}
 , "os" : [ "linux", "macos" ]
 , "cpu" : [ "x86", "ppc", "x86_64" ]
-, "engines" : [ "node" ]
+, "engines" : { "node": ">=0.2.2" }
 , "directories" : { "lib" : "lib" }
 }
