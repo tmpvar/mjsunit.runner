@@ -20,6 +20,6 @@
     }
   ]
 , "dependencies" : {}
-, "engines" : { "node": ">=0.2.2" }
+, "engines" : { "node": ">=0.1.9" }
 , "directories" : { "lib" : "lib" }
 }
